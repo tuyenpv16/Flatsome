@@ -1,0 +1,42 @@
+/*
+CSS giá của kết quả tìm kiếm
+*/
+.suggestion-post-title{
+    color: #1a1a1a;
+}
+.aa-dropdown-menu .aa-suggestion em {
+    background: transparent;
+}
+.suggestion-post-price {
+    font-size: 14px;
+}
+.suggestion-post-price > .amount,
+.suggestion-post-price > ins .amount {
+    color: red;
+    text-decoration: none
+}
+.suggestion-post-price > ins{
+    text-decoration: none
+}
+.suggestion-post-price del {
+    font-size: 12px;
+    color: grey
+}
+/*
+CSS nút submit của form [wpforms id="42241"]
+*/
+button#wpforms-submit-42241 {
+    width: 100%;
+}
+/*
+CSS nút submit của form [wpforms id="12957"]
+*/
+button#wpforms-submit-12957 {
+    width: 100%;
+}
+/*
+CSS absolute-footer 
+*/
+.absolute-footer {
+color: #000000cf !important;
+)
