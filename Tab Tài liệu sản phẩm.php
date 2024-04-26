@@ -31,3 +31,9 @@ function custom_datasheet_tab_content() {
         echo '<p>' . esc_html__('Không có tài liệu nào được tải lên cho sản phẩm này.', 'woocommerce') . '</p>';
     }
 }
+/*
+ *Điều kiện:
+Đã có ACF, đã thêm trường trường ACF Repeater "datasheet" và đã tạo một sub_field trong Repeater có tên là "file" cho sản phẩm, field type là file.
+Tab "Tài liệu sản phẩm" sẽ nếu sản phẩm không có tài liệu nào được tải lên.
+Tài liệu sản phẩm mở trong tab mới
+*/
