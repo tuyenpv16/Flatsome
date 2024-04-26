@@ -10,3 +10,5 @@ function display_manufacturer_shortcode() {
     }
 }
 add_shortcode( 'manufacturer_info', 'display_manufacturer_shortcode' );
+
+// shortcode: [manufacturer_info]
