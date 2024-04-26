@@ -24,7 +24,7 @@ function custom_datasheet_tab_content() {
         echo '<ul>';
         foreach ($datasheets as $datasheet) {
             $file = $datasheet['file']; // Đường dẫn đến file đã tải lên
-			echo '<li><a href="' . esc_url($file['url']) . '" target="_blank">' . esc_html($file['title']) . '</a></li>'; // Thêm thuộc tính target="_blank" để mở trong tab mới
+			echo '<li><a href="' . esc_url($file['url']) . '" target="_blank">' . esc_html($file['title']) . '</a></li>'; // Thêm thuộc tính target="_blank" để mở trong tab mới, không thích thì xoá đi
         }
         echo '</ul>';
     } else {
