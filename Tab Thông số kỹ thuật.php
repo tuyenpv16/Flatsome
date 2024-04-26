@@ -28,3 +28,8 @@ function specification_tab_content() {
         echo '</div>';
     }
 }
+/*
+Điều kiện:
+Đã có ACF và đã tạo một field trong sản phẩm có tên là “specification” cho sản phẩm, field type là Wysiwyg Editor.
+Tab “Tài liệu sản phẩm” sẽ ẩn nếu sản phẩm không thông số kỹ thuật.
+*/
